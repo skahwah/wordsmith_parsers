@@ -1,0 +1,12 @@
+Downloaded from https://www.ssa.gov/oact/babynames/limits.html
+
+Unzip namesbystate.zip to bystate/ (files are called XX.TXT) These are most popular first names (min. of 5 first names total) in each given state, sorted by popularity
+Unzip names.zip to national/ (files are called yobXXXX.txt) These are most popular first names (min. of 5 first names total) country wide, sorted by popularity
+
+Downloaded from https://www.census.gov/topics/population/genealogy/data/2010_surnames.html, File B: Surnames Occurring 100 or more times (names.zip) These are last names (min. of 10 last names total) country wide, sorted by popularity
+
+Unzip names.zip to lastnames/ (file is called Names_2010Census.csv)
+
+make sure "path" var in code points to right location for writing data.
+
+run create-names.rb

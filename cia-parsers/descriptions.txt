@@ -1,0 +1,22 @@
+Numbers denote the order of operation
+
+# 1. cia-downlader.rb
+This script will download all pages (aa-zz) from the CIA demographics web app
+
+# 2. cia-rename.rb
+This script will rename the two character file (aa.txt-zz.txt) to the ISO-Alpha-3 code equivalent
+
+# 3. cia-field-parser.rb
+This will take a field item as an argument, such as Language or Population. Parse all of the CIA .txt files and return the result of the argument into a YAML
+
+# 4. cia-merge-to-wordsmith.
+Merge YAML and cia demographic text files into the wordsmith v2 data/country code directory
+
+
+
+
+
+
+
+# 5. cia-to-wordlist.rb
+This is a function that will be included in wordsmith v2. It will open the cia demographic file for a country, extract all contents on new line, sort, uniq and place in to the larger wordlist.
