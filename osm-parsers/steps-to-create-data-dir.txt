@@ -1,0 +1,7 @@
+1) cp -r 090916-data data (contains sports, colleges, etc.)
+
+2) python parse-osm.py (generate counties, cities, roads for every node, uses gisgraphy dir with .pbf files) (requirs gisgraphy/)
+OR
+2) cp -r 090916-osm/ data/ (copy over pre-generated data since parsing all .pbf files can take a long time)
+
+3) ruby usa-census.rb (overwrite cities and counties for US states since census is better data) (requires states.txt, national_places.txt)
