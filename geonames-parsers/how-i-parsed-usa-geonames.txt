@@ -1,0 +1,13 @@
+Downloaded AllStates_<date>.zip from https://geonames.usgs.gov/domestic/download_data.htm
+unzip'd to usa/
+
+AS -> data/asm (American Samoa)
+DC -> data/usa/dc (District of Columbia)
+GU -> data/gum (Guam)
+FM -> data/fsm/ (Federated States of Micronesia)
+MH -> data/mhl (Marshall Islands)
+MP -> data/mnp (Northern Mariana Islands)
+PR -> data/usa/pr (Puerto Rico)
+PW -> data/plw (Palau)
+UM -> data/umi (US Minor Outlying Islands)
+VI -> data/vir (U.S. Virgin Islands)
