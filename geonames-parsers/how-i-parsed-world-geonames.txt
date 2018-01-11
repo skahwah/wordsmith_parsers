@@ -1,0 +1,5 @@
+Downloaded geonames_<date>.zip from http://geonames.nga.mil/gns/html/namefiles.html
+unzip'd to world/ (creates Countries.txt)
+
+run world-geonames.rb
+(this uses mappings in fips-to-data-mappings.csv)
