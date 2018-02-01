@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # Written by Sanjiv Kawa
-# Twitter @hackerjiv
+# Twitter @kawabungah
 # 10/6/17
 
 def parse_religion(f)

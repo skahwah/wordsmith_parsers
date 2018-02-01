@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
-#Encoding: UTF-8
+# Written by Sanjiv Kawa
+# Twitter @kawabungah
+# 10/6/17
 
 require 'csv'
 require 'fileutils'
@@ -7,7 +9,7 @@ require 'fileutils'
 File.readlines('states.txt').each do |line|
   counties = []
   cities = []
-  CSV.foreach('national_places.txt', col_sep: '|') { |record| 
+  CSV.foreach('national_places.txt', col_sep: '|') { |record|
     next unless record.length == 7
     if record[0] == line.upcase.chomp
       counties.push(*record[6].split(", "))

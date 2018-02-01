@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # Written by Sanjiv Kawa
-# Twitter @hackerjiv
+# Twitter @kawabungah
 # 10/6/17
 
 f = "../religion-original-documents/king-james-bible.txt"
